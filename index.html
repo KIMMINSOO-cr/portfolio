@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KIM MIN SOO | Backend Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Devicon CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>KMS<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Backend Developer</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-greeting">안녕하세요,</span>
+        <span class="hero-name">김민수<span class="accent">입니다.</span></span>
+        <span class="hero-name-en">KIM MIN SOO</span>
+      </h1>
+      <p class="hero-desc">
+        "데이터의 흐름을 설계하고 안전한 서버 로직을 고민하는 개발자입니다."
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-code"></i> 프로젝트 보기
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-envelope"></i> 연락하기
+        </a>
+      </div>
+      <div class="hero-social">
+        <a href="https://github.com/KIMMINSOO-cr" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:kms0301081@naver.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 01. about me</span>
+        <h2 class="section-title">About</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <div class="avatar-wrapper">
+            <div class="avatar-icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="about-info-cards">
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>인천, 대한민국</span>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-graduation-cap"></i>
+              <span>인하공업전문대학</span>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-briefcase"></i>
+              <span>Backend Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-intro">
+            안녕하세요! 저는 <strong>데이터의 흐름을 설계하고 안전한 서버 로직을 고민하는</strong> 백엔드 개발자 <strong>김민수</strong>입니다.
+          </p>
+          <p>
+            Java와 Spring Boot를 중심으로 안정적이고 확장 가능한 서버 아키텍처를 구축하는 것에 관심이 많습니다.
+            JWT 기반 인증 시스템, RBAC 권한 설계, 데이터베이스 정규화 등 백엔드 핵심 역량을 갖추고 있으며,
+            실제 프로젝트를 통해 이를 꾸준히 발전시켜 나가고 있습니다.
+          </p>
+          <p>
+            현재 AI 기반 업무 자동화 협업 툴 <strong>AutoTask</strong>를 개발 중이며,
+            보안과 사용자 경험을 모두 고려한 서비스를 만들기 위해 노력하고 있습니다.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-num">2+</span>
+              <span class="highlight-label">프로젝트</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-num">4+</span>
+              <span class="highlight-label">년 학습 경험</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-num">Java</span>
+              <span class="highlight-label">주력 언어</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 02. technical skills</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-grid">
+
+        <!-- Languages -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <i class="fas fa-code"></i> Languages
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="devicon-java-plain colored"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-mysql-plain colored"></i>
+              <span>SQL</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-typescript-plain colored"></i>
+              <span>TypeScript</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-html5-plain colored"></i>
+              <span>HTML</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-css3-plain colored"></i>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <i class="fas fa-layer-group"></i> Frameworks
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="devicon-spring-plain colored"></i>
+              <span>Spring Boot</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-spring-plain colored"></i>
+              <span>Spring Security</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-spring-plain colored"></i>
+              <span>Spring Data JPA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Databases -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <i class="fas fa-database"></i> Databases
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="devicon-mysql-plain colored"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-oracle-original colored"></i>
+              <span>Oracle</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <i class="fas fa-tools"></i> Tools
+          </h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="devicon-git-plain colored"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-github-original colored"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-item">
+              <i class="devicon-mysql-plain colored"></i>
+              <span>MySQL Workbench</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 03. projects</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1: AutoTask -->
+        <article class="project-card featured">
+          <div class="project-card-header">
+            <div class="project-meta">
+              <span class="project-status active">
+                <span class="status-dot"></span> In Progress
+              </span>
+              <span class="project-period">
+                <i class="fas fa-calendar-alt"></i> 2026.03 ~ 현재
+              </span>
+            </div>
+            <div class="project-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">AutoTask</h3>
+            <p class="project-subtitle">AI 기반 업무 자동화 협업 툴</p>
+            <div class="project-tech-stack">
+              <span class="tech-badge"><i class="devicon-java-plain"></i> Java</span>
+              <span class="tech-badge"><i class="devicon-spring-plain"></i> Spring Boot</span>
+              <span class="tech-badge"><i class="devicon-spring-plain"></i> Spring Security</span>
+              <span class="tech-badge"><i class="fas fa-key"></i> JWT</span>
+              <span class="tech-badge"><i class="devicon-mysql-plain"></i> MySQL</span>
+              <span class="tech-badge"><i class="devicon-spring-plain"></i> JPA</span>
+            </div>
+            <div class="project-details">
+              <h4 class="details-title"><i class="fas fa-star"></i> 핵심 구현</h4>
+              <ul class="details-list">
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>이메일 인증 시스템</strong> — 난수 코드 생성 및 검증 로직 구현으로 안전한 회원가입 프로세스 구축</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>JWT 기반 인증 서버</strong> — Access Token / Refresh Token 이중 구조 설계로 보안성과 사용자 편의성 동시 확보</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>RBAC 권한 설계</strong> — 역할 기반 접근 제어(Role-Based Access Control) 및 팀 초대 시스템 구현</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/KIMMINSOO-cr" target="_blank" rel="noopener" class="btn btn-github">
+              <i class="fab fa-github"></i> GitHub 소스 보기
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2: 스터디 카페 예약 시스템 -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-meta">
+              <span class="project-status completed">
+                <span class="status-dot"></span> Completed
+              </span>
+              <span class="project-period">
+                <i class="fas fa-calendar-alt"></i> 2025.09 ~ 2025.12
+              </span>
+            </div>
+            <div class="project-icon">
+              <i class="fas fa-coffee"></i>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">스터디 카페 예약 시스템</h3>
+            <p class="project-subtitle">Web 기반 좌석 예약 관리 플랫폼</p>
+            <div class="project-tech-stack">
+              <span class="tech-badge"><i class="devicon-spring-plain"></i> Spring Boot</span>
+              <span class="tech-badge"><i class="fas fa-file-code"></i> JSP</span>
+              <span class="tech-badge"><i class="devicon-mysql-plain"></i> MySQL</span>
+              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+            </div>
+            <div class="project-details">
+              <h4 class="details-title"><i class="fas fa-star"></i> 핵심 구현</h4>
+              <ul class="details-list">
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>MySQL ERD 설계</strong> — 데이터 정규화를 통한 효율적인 DB 스키마 설계 및 관계형 데이터 모델링</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>실시간 예약 현황 대시보드</strong> — 좌석 점유 상태를 시각적으로 표현하는 실시간 현황판 구현</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>관리자 페이지 UI/UX 최적화</strong> — 관리자 전용 예약 관리 인터페이스 설계 및 사용성 개선</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/KIMMINSOO-cr" target="_blank" rel="noopener" class="btn btn-github">
+              <i class="fab fa-github"></i> GitHub 소스 보기
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION SECTION ========== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 04. education</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="education-timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="timeline-title">인하공업전문대학</h3>
+              <span class="timeline-period">2022.03 ~ 2026.02</span>
+            </div>
+            <p class="timeline-dept">컴퓨터정보공학과</p>
+            <div class="timeline-tags">
+              <span class="tag">졸업예정</span>
+              <span class="tag">전문학사</span>
+              <span class="tag">컴퓨터공학</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// 05. contact</span>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">언제든지 연락 주세요. 빠르게 답변 드리겠습니다.</p>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:kms0301081@naver.com" class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">kms0301081@naver.com</span>
+          </div>
+          <i class="fas fa-arrow-right contact-arrow"></i>
+        </a>
+        <a href="tel:010-4841-5926" class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">010-4841-5926</span>
+          </div>
+          <i class="fas fa-arrow-right contact-arrow"></i>
+        </a>
+        <a href="https://github.com/KIMMINSOO-cr" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">KIMMINSOO-cr</span>
+          </div>
+          <i class="fas fa-arrow-right contact-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <span class="footer-logo">
+          <span class="logo-bracket">&lt;</span>KMS<span class="logo-bracket">/&gt;</span>
+        </span>
+        <p class="footer-copy">
+          &copy; 2026 Kim Min Soo. All rights reserved.
+        </p>
+        <a href="https://github.com/KIMMINSOO-cr" target="_blank" rel="noopener" class="footer-github">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop" aria-label="맨 위로">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
