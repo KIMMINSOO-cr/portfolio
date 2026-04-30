@@ -1281,6 +1281,8 @@ img {
     flex-direction: column;
     gap: 16px;
   }
+
+   
   .timeline-header {
     flex-direction: column;
     align-items: flex-start;
@@ -1317,4 +1319,25 @@ img {
 }
 .nav-overlay.visible {
   display: block;
+}
+
+/* 프로젝트 이미지 스타일 */
+.project-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지가 꽉 차게 조절 */
+  transition: var(--transition-slow);
+}
+
+/* 카드 호버 시 이미지 확대 효과 */
+.project-card:hover .project-image img {
+  transform: scale(1.05);
 }
